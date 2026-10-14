@@ -1,0 +1,12 @@
+# Core dependencies
+PyMuPDF>=1.23.0        # PDF parsing + native vector drawing extraction (imported as `fitz`)
+Pillow>=9.0.0          # image handling for the rendered field page
+numpy>=1.21.0          # vector math in the parser / grid
+
+# Only required by the legacy image-based fallback in pdf_parser.detect_point_states_from_image
+opencv-python>=4.5.0
+
+# tkinter (GUI) is part of the Python standard library on Windows and macOS.
+# On Linux, install the system package, e.g.:
+#   Debian/Ubuntu : sudo apt-get install python3-tk
+#   Fedora/RHEL   : sudo dnf install python3-tkinter

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vf-driverfitness-analyzer"
+version = "1.0.0"
+description = "Automated fitness-to-drive assessment from ZEISS Humphrey driver's-license visual-field PDFs via native vector parsing."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = [
+    "PyMuPDF>=1.23.0",
+    "Pillow>=9.0.0",
+    "numpy>=1.21.0",
+    "opencv-python>=4.5.0",
+]
+
+[tool.setuptools]
+packages = ["visual_field_analyzer"]
