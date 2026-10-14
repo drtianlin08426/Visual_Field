@@ -5,7 +5,7 @@
 
 This repository accompanies the manuscript:
 
-> Lin T, Chen H, et al. *Automated Fitness-to-Drive Assessment via Native Vector
+> Lin T, Xiao Zi, et al. *Automated Fitness-to-Drive Assessment via Native Vector
 > Parsing of Humphrey Driver-License Visual Field PDFs.*
 > **Translational Vision Science & Technology (TVST)** — under review.
 > *(Add the DOI / final citation here once the article is accepted.)*
